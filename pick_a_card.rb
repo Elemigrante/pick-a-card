@@ -7,7 +7,7 @@ cards = []
 
 values.each do |value|
   suits.each do |suit|
-    cards << "#{values} of #{suits}"
+    cards << "#{value} of #{suit}"
   end
 end
 
